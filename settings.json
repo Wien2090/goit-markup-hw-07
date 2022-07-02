@@ -1,0 +1,34 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.colorTheme": "One Dark Pro",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.autofetch": true,
+  "git.suggestSmartCommit": false,
+  "files.autoSave": "onWindowChange",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.columnSelection": true,
+  "editor.defaultFormatter": "formulahendry.auto-close-tag",
+  "editor.definitionLinkOpensInPeek": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.fullReload": true,
+  "liveServer.settings.https": {
+    "enable": false,
+    "key": "",
+    "passphrase": ""
+  },
+  "liveServer.settings.NoBrowser": true,
+  "liveServer.settings.useBrowserPreview": true,
+  "liveServer.settings.useLocalIp": true,
+  "liveServer.settings.useWebExt": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+}
