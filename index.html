@@ -24,41 +24,38 @@
   <body>
     <!--HEADER-->
     <header class="header">
-      <div class="container header__container">
-        <a href="#" class="logo header__logo link"
-          >Web<span class="logo__dark">Studio</span>
+      <div class="container header-container">
+        <a href="#" class="logo link"
+          >Web<span class="studio-black">Studio</span>
         </a>
 
-        <nav class="nav">
-          <ul class="nav__list list">
-            <li class="nav__item">
-              <a href="#" class="nav__link nav__link--current link">Студия</a>
+        <nav>
+          <ul class="header-nav-link list">
+            <li class="header-nav-item">
+              <a href="#" class="nav-link current link">Студия</a>
             </li>
-            <li class="nav__item">
-              <a href="./portfolio.html" class="nav__link link">Портфолио</a>
+            <li class="header-nav-item">
+              <a href="./portfolio.html" class="nav-link link">Портфолио</a>
             </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link link">Контакты</a>
+            <li class="header-nav-item">
+              <a href="#" class="nav-link link">Контакты</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="header__contact list">
-          <li class="header__contact-item">
-            <a
-              href="mailto:info@devstudio.com"
-              class="header__contact-link link"
-            >
-              <svg class="header__contact-icon" width="16" height="12">
+        <ul class="heder-contakt-link list">
+          <li class="header-contact-item">
+            <a href="mailto:info@devstudio.com" class="contakt-link link">
+              <svg class="heder-soc-icon" width="16" height="12">
                 <use xlink:href="./images/icons.svg#icon-convert-heder"></use>
               </svg>
 
               info@devstudio.com</a
             >
           </li>
-          <li class="header__contact-item">
-            <a href="tel:+380961111111" class="header__contact-link link">
-              <svg class="header__contact-icon" width="10" height="16">
+          <li class="header-contact-item">
+            <a href="tel:+380961111111" class="contakt-link link">
+              <svg class="heder-soc-icon" width="10" height="16">
                 <use
                   xlink:href="./images/icons.svg#icon-smartphone-heder"
                 ></use>
@@ -72,10 +69,10 @@
 
     <!--Секция сайта "Заказать услугу"-->
     <main>
-      <section class="hero">
+      <section class="background-img hero">
         <div class="container">
-          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero__button" type="button" data-modal-open>
+          <h1 class="studio-ha">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="studio-button" data-modal-open>
             Заказать услугу
           </button>
         </div>
@@ -85,51 +82,51 @@
 
       <section class="section benefits">
         <div class="container">
-          <ul class="benefits__list card-set list">
-            <li class="card-set__item">
-              <div class="benefits__wrapper">
-                <svg class="benefits__icon" width="70" height="70">
+          <ul class="benefits-list card-set list">
+            <li class="card-set-item">
+              <div class="directions-link">
+                <svg class="directions-icon" width="70" height="70">
                   <use xlink:href="./images/icons.svg#icon-antenn"></use>
                 </svg>
               </div>
-              <h3 class="benefits__title">Внимание к деталям</h3>
-              <p class="benefits__desc">
+              <h3 class="studio-hc">Внимание к деталям</h3>
+              <p class="studio-p">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="card-set__item">
-              <div class="benefits__wrapper">
-                <svg class="benefits__icon" width="70" height="70">
+            <li class="card-set-item">
+              <div class="directions-link">
+                <svg class="directions-icon" width="70" height="70">
                   <use xlink:href="./images/icons.svg#icon-clockgold"></use>
                 </svg>
               </div>
-              <h3 class="benefits__title">Пунктуальность</h3>
-              <p class="benefits__desc">
+              <h3 class="studio-hc">Пунктуальность</h3>
+              <p class="studio-p">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="card-set__item">
-              <div class="benefits__wrapper">
-                <svg class="benefits__icon" width="70" height="70">
+            <li class="card-set-item">
+              <div class="directions-link">
+                <svg class="directions-icon" width="70" height="70">
                   <use xlink:href="./images/icons.svg#icon-diagrama"></use>
                 </svg>
               </div>
-              <h3 class="benefits__title">Планирование</h3>
-              <p class="benefits__desc">
+              <h3 class="studio-hc">Планирование</h3>
+              <p class="studio-p">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="card-set__item">
-              <div class="benefits__wrapper">
-                <svg class="benefits__icon" width="70" height="70">
+            <li class="card-set-item">
+              <div class="directions-link">
+                <svg class="directions-icon" width="70" height="70">
                   <use xlink:href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="benefits__title">Современные технологии</h3>
-              <p class="benefits__desc">
+              <h3 class="studio-hc">Современные технологии</h3>
+              <p class="studio-p">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -137,12 +134,11 @@
           </ul>
         </div>
       </section>
-
       <section class="section features">
         <div class="container">
           <h2 class="studio-hb">Чем мы занимаемся</h2>
           <ul class="features-list card-set list link">
-            <li class="card-set__item">
+            <li class="card-set-item">
               <div class="box-features-imgtext">
                 <img
                   src="./images/a.jpg"
@@ -154,7 +150,7 @@
               </div>
             </li>
 
-            <li class="card-set__item">
+            <li class="card-set-item">
               <div class="box-features-imgtext">
                 <img
                   src="./images/b.jpg"
@@ -165,7 +161,7 @@
                 <p class="features-imgtext">Мобильные приложения</p>
               </div>
             </li>
-            <li class="card-set__item">
+            <li class="card-set-item">
               <div class="box-features-imgtext">
                 <img
                   src="./images/c.jpg"
@@ -185,7 +181,7 @@
         <div class="container">
           <h2 class="studio-hb">Наша команда</h2>
           <ul class="team-list card-set list">
-            <li class="card-set__item tiam-bord">
+            <li class="card-set-item tiam-bord">
               <img
                 src="./images/ihor.jpg"
                 alt="фото дизайнера"
@@ -237,7 +233,7 @@
               </div>
               <!-- Фініш-Соцсети -->
             </li>
-            <li class="card-set__item tiam-bord">
+            <li class="card-set-item tiam-bord">
               <img
                 src="./images/olha.jpg"
                 alt="фото фронтенд-разработчика"
@@ -285,7 +281,7 @@
                 </ul>
               </div>
             </li>
-            <li class="card-set__item tiam-bord">
+            <li class="card-set-item tiam-bord">
               <img
                 src="./images/nic.jpg"
                 alt="фото маркетолога"
@@ -333,7 +329,7 @@
                 </ul>
               </div>
             </li>
-            <li class="card-set__item tiam-bord">
+            <li class="card-set-item tiam-bord">
               <img
                 src="./images/mux.jpg"
                 alt="фото дизайнера"
@@ -451,24 +447,24 @@
       <div class="container footer-container">
         <div>
           <a href="#" class="logo list link"
-            >Web<span class="logo__white">Studio</span></a
+            >Web<span class="studio-white">Studio</span></a
           >
           <address class="address">
-            <ul class="footer-header__contact-link list link">
+            <ul class="footer-contakt-link list link">
               <li class="footer-item footer-street">
                 г. Киев, пр-т Леси Украинки, 26
               </li>
               <li class="footer-item">
                 <a
                   href="mailto:info@devstudio.com"
-                  class="header__contact-links list link footer-link"
+                  class="contakt-links list link footer-link"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="footer-item">
                 <a
                   href="tel:+380961111111"
-                  class="header__contact-links list link footer-link"
+                  class="contakt-links list link footer-link"
                 >
                   +38 096 111 11 11</a
                 >
