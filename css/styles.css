@@ -84,25 +84,25 @@ address {
 
 /* ---------------СТАРТ РОЗТАШУВАННЯ--------------------- */
 /*  Старт - Хедер */
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
-.header-nav-link {
+.nav {
   display: flex;
 }
-.heder-contakt-link {
+.contakt {
   display: flex;
   margin-left: auto;
 }
-.nav-link {
+.nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   transition: color var(--anim);
 }
 
-.contakt-link {
+.contact__link {
   padding-top: 32px;
   padding-bottom: 32px;
   transition: color var(--anim);
@@ -115,19 +115,19 @@ address {
   align-items: center;
 }
 
-.header-nav-item {
+.nav__item {
   margin-right: 50px;
 }
 
-.header-nav-item:last-child {
+.nav__item:last-child {
   margin-right: 0;
 }
 
-.header-contact-item {
+.contact__item {
   margin-right: 50px;
 }
 
-.header-contact-item:last-child {
+.contact__item:last-child {
   margin-right: 0;
 }
 /* -----ФІНІШ ХЕДЕР-------- */
@@ -137,14 +137,14 @@ address {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.studio-ha {
+.hero__text {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
 }
 
-.studio-button {
+.hero__button {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -191,7 +191,7 @@ address {
 .footer-street {
   color: #ffffff;
 }
-.footer-item:not(:last-child) {
+.footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -217,14 +217,14 @@ address {
   border-bottom: 1px solid #ececec;
 }
 
-.studio-black {
+.logo__dark {
   color: rgba(33, 33, 33, 1);
 }
-.studio-white {
+.logo-white {
   color: rgba(255, 255, 255, 1);
 }
 
-.header-nav-link .nav-link {
+.nav .nav__link {
   font-family: "Roboto";
   position: relative;
   font-weight: 500;
@@ -234,36 +234,36 @@ address {
   color: rgba(33, 33, 33, 1);
 }
 
-.header-nav-link .nav-link:hover,
+.nav .nav__link:hover,
 .button-link-portfolio .link-portfolio:focus {
   color: var(--color-buton);
 }
 
-.nav-link.current {
+.nav__link.current {
   color: var(--color-buton);
 }
 
-.heder-contakt-link .contakt-link:hover,
-.heder-contakt-link .contakt-link :focus {
+.contakt .contact__link:hover,
+.contakt .contact__link:focus {
   color: var(--color-buton);
 }
 
 /* -----------SVG В ХЕДЕРЕ-------- */
 
-.heder-soc-icon {
+.contact__icon {
   fill: rgba(117, 117, 117, 1);
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contakt-link:hover .heder-soc-icon,
-.contakt-link:focus .heder-soc-icon {
+.contact__link:hover .contact__icon,
+.contact__link:focus .contact__icon {
   fill: #2196f3;
 }
 
 /* --------------Кінець SVG В ХЕДЕРЕ-------- */
 
-.footer-contakt-link .contakt-links {
+.footer__contakt-link .contakt-links {
   font-family: "Roboto";
   color: var(--color-text);
   font-weight: 500;
@@ -273,12 +273,12 @@ address {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-contakt-link .contakt-links:hover,
-.footer-contakt-link .contakt-links :focus {
+.footer__contakt-link .contakt-links:hover,
+.footer__contakt-link .contakt-links :focus {
   color: var(--color-buton);
 }
 /* STUDIO */
-.background-img {
+.hero__img {
   background-color: rgba(47, 48, 58, 1);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -292,21 +292,21 @@ address {
   margin: 0 auto;
 }
 
-.background-a {
+.footer__background {
   background-color: rgba(47, 48, 58, 1);
 }
 
 .background-b {
   background-color: #e5e5e5;
 }
-.backgraund-c {
+.team {
   background-color: var(--color-mix);
 }
 .backgraund-d {
   color: var(--color-minitext);
 }
 
-.studio-ha {
+.hero__text {
   color: var(--color-minitext);
   font-weight: 900;
   font-size: 44px;
@@ -317,7 +317,7 @@ address {
 }
 
 /* FOOTER */
-.studio-button {
+.hero__button {
   font-family: inherit;
   font-style: normal;
   color: var(--color-minitext);
@@ -333,13 +333,13 @@ address {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.studio-button:hover,
-.studio-button :focus {
+.hero__button:hover,
+.hero__button :focus {
   color: var(--color-minitext);
   background-color: #188ce8;
 }
 
-.studio-hc {
+.benefits__desc {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
@@ -347,7 +347,7 @@ address {
   text-transform: uppercase;
 }
 
-.studio-p {
+.benefits__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -355,7 +355,7 @@ address {
   color: var(--color-text);
 }
 
-.studio-hd {
+.partnters {
   display: block;
   margin-top: 94px;
   font-weight: 700;
@@ -365,7 +365,7 @@ address {
   letter-spacing: 0.03em;
 }
 
-.studio-name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -383,22 +383,22 @@ address {
 }
 
 /* --------СОЦСЕТИ--------- */
-.soc-list {
+.team__soc-list {
   display: flex;
   justify-content: center;
 }
 
-.soc-item {
+.team__soc-item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
 }
 
-.soc-item:last-child {
+.team__soc-item:last-child {
   margin-right: 0px;
 }
 
-.soc-link {
+.team__soc-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -409,23 +409,23 @@ address {
   transition: background-color var(--anim);
 }
 
-.soc-icon {
+.team__soc-icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.soc-link:hover,
-.soc-link:focus {
+.team__soc-link:hover,
+.team__soc-link:focus {
   background-color: #2196f3;
 }
 
-.soc-link:hover .soc-icon,
-.soc-link:focus .soc-icon {
+.team__soc-link:hover .team__soc-icon,
+.team__soc-link:focus .team__soc-icon {
   fill: #ffffff;
 }
 /* ------------------------ */
 /* --------Нова секція -ПАРТНЕРИ------------ */
-.studio-hb {
+.features__main {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -433,24 +433,32 @@ address {
   letter-spacing: 0.03em;
 }
 
-.partnters-list {
+.team__main {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.partnters__list {
   display: flex;
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 94px;
 }
 
-.partnters-item {
+.partnters__item {
   width: 170px;
   height: 92px;
   margin-right: 30px;
 }
 
-.partnters-item:last-child {
+.partnters__item:last-child {
   margin-right: 0px;
 }
 
-.partnters-link {
+.partnters__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -461,24 +469,24 @@ address {
   background-color: #ffffff;
 }
 
-.partnters-icon {
+.partnters__icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.partnters-link:hover,
-.partnters-link:focus {
+.partnters__link:hover,
+.partnters__link:focus {
   border: 1px solid #2196f3;
 }
 
-.partnters-link:hover .partnters-icon,
-.partnters-link:focus .partnters-icon {
+.partnters__link:hover .partnters__icon,
+.partnters__link:focus .partnters__icon {
   fill: #2196f3;
 }
 
 /* --------Кінець секціїї ПАРТНЕРИ------- */
 
-.studio-work {
+.team__work {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -578,7 +586,7 @@ address {
 
 /* -----------ПОЧАТОК--ФУТЕР СОЦ СЕТИ----------- */
 
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
@@ -647,13 +655,13 @@ address {
 }
 /* ------СІТКА------ */
 
-.card-set {
+.card__set {
   display: flex;
   flex-wrap: wrap;
   margin: calc(-1 * var(--indent) / 2);
 }
 
-.card-set-item {
+.card__set-item {
   flex-basis: calc((100% - var(--indent) * var(--item)) / var(--item));
 
   margin: calc(var(--indent) / 2);
@@ -683,21 +691,21 @@ address {
   transition: transform var(--anim);
 }
 
-.card-set-item:hover .bigbest-text {
+.card__set-item:hover .bigbest-text {
   transform: translate(0);
 }
 
 /* -----СТАРТ ЗМІННІ----- */
-.benefits-list {
+.benefits__list {
   --item: 4;
   --indent: 30px;
 }
-.features-list {
+.features__list {
   --item: 3;
   --indent: 30px;
 }
 
-.team-list {
+.team__list {
   --item: 4;
   --indent: 30px;
 }
@@ -709,7 +717,7 @@ address {
 /* -----ФІНІШ ЗМІННІ----- */
 /* -------КАРТИНКИ SVG чем займаємс--------- */
 
-.directions-link {
+.benefits__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -720,7 +728,7 @@ address {
   margin-bottom: 30px;
 }
 
-.directions-icon {
+.benefits__icon {
   fill: #afb1b8;
 }
 
@@ -739,11 +747,11 @@ address {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.box-features-imgtext {
+.features__box-imgtext {
   position: relative;
 }
 
-.features-imgtext {
+.features__imgtext {
   position: absolute;
   bottom: 0;
   width: 370px;
@@ -818,7 +826,7 @@ address {
   cursor: pointer;
 }
 
-.nav-link.current::after {
+.nav__link.current::after {
   content: "";
   position: absolute;
   bottom: -1px;
