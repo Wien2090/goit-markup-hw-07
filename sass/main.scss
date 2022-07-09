@@ -3,17 +3,14 @@
 @import "./base/bases" ;
 @import "./base/container" ;
 @import "./base/rezet" ;
-@import "./base/section" ;
 // components //
 @import "./components/button" ;
 @import "./components/cartset";
 @import "./components/contakt";
-@import "./components/heroimg";
 @import "./components/logo" ;
 @import "./components/modal" ;
 @import "./components/nav" ;
 @import "./components/portfolio";
-@import "./components/social" ;
 @import "./components/subscribe";
 // layouts // 
 @import "./layouts/benefits" ;
@@ -25,7 +22,6 @@
 @import "./layouts/teatures";
 // utils //
 @import "./utils/variables" ;
-@import "./utils/vars";
 @import "./utils/visually-hidden" ;
 
 
